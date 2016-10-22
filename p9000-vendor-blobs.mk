@@ -88,10 +88,24 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/bin/spm_loader:system/bin/spm_loader \
  vendor/elephone/p9000/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
  vendor/elephone/p9000/proprietary/bin/terservice:system/bin/terservice \
+ vendor/elephone/p9000/proprietary/bin/thermal:system/bin/thermal \
+ vendor/elephone/p9000/proprietary/bin/thermal_manager:system/bin/thermal_manager \
+ vendor/elephone/p9000/proprietary/bin/thermald:system/bin/thermald \
+ vendor/elephone/p9000/proprietary/bin/thermalloadalgod:system/bin/thermalloadalgod \
  vendor/elephone/p9000/proprietary/bin/vtservice:system/bin/vtservice \
  vendor/elephone/p9000/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/elephone/p9000/proprietary/bin/wmt_loader:system/bin/wmt_loader \
  vendor/elephone/p9000/proprietary/bin/xlog:system/bin/xlog \
+ vendor/elephone/p9000/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
+ vendor/elephone/p9000/proprietary/etc/.tp/.thermal_meta.conf:system/etc/.tp/.thermal_meta.conf \
+ vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_00:system/etc/.tp/.thermal_policy_00 \
+ vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_01:system/etc/.tp/.thermal_policy_01 \
+ vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_02:system/etc/.tp/.thermal_policy_02 \
+ vendor/elephone/p9000/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
+ vendor/elephone/p9000/proprietary/etc/.tp/thermal.high.conf:system/etc/.tp/thermal.high.conf \
+ vendor/elephone/p9000/proprietary/etc/.tp/thermal.low.conf:system/etc/.tp/thermal.low.conf \
+ vendor/elephone/p9000/proprietary/etc/.tp/thermal.mid.conf:system/etc/.tp/thermal.mid.conf \
+ vendor/elephone/p9000/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
  vendor/elephone/p9000/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
  vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackACF_AudioParam.xml:system/etc/audio_param/PlaybackACF_AudioParam.xml \
  vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:system/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
