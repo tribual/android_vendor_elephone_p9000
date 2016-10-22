@@ -343,6 +343,8 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
  vendor/elephone/p9000/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
  vendor/elephone/p9000/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
+ vendor/elephone/p9000/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
+ vendor/elephone/p9000/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
  vendor/elephone/p9000/proprietary/lib/libfusion.so:system/lib/libfusion.so \
  vendor/elephone/p9000/proprietary/lib/libgas.so:system/lib/libgas.so \
  vendor/elephone/p9000/proprietary/lib/libged.so:system/lib/libged.so \
@@ -528,6 +530,9 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
  vendor/elephone/p9000/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
  vendor/elephone/p9000/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
+ vendor/elephone/p9000/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
+ vendor/elephone/p9000/proprietary/lib64/libfmjni.so:system/lib64/libfmjni.so \
+ vendor/elephone/p9000/proprietary/lib64/libfmjniem.so:system/lib64/libfmjniem.so \
  vendor/elephone/p9000/proprietary/lib64/libgas.so:system/lib64/libgas.so \
  vendor/elephone/p9000/proprietary/lib64/libged.so:system/lib64/libged.so \
  vendor/elephone/p9000/proprietary/lib64/libgem.so:system/lib64/libgem.so \
@@ -560,6 +565,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
  vendor/elephone/p9000/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
+ vendor/elephone/p9000/proprietary/lib64/libmtkplayer.so:system/lib64/libmtkplayer.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
  vendor/elephone/p9000/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
  vendor/elephone/p9000/proprietary/lib64/libnativecheck-jni.so:system/lib64/libnativecheck-jni.so \
