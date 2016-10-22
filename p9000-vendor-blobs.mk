@@ -92,6 +92,67 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/elephone/p9000/proprietary/bin/wmt_loader:system/bin/wmt_loader \
  vendor/elephone/p9000/proprietary/bin/xlog:system/bin/xlog \
+ vendor/elephone/p9000/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackACF_AudioParam.xml:system/etc/audio_param/PlaybackACF_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:system/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackDRC_AudioParam.xml:system/etc/audio_param/PlaybackDRC_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:system/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackHCF_AudioParam.xml:system/etc/audio_param/PlaybackHCF_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:system/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolAna_AudioParam.xml:system/etc/audio_param/PlaybackVolAna_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:system/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolDigi_AudioParam.xml:system/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:system/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolUI_AudioParam.xml:system/etc/audio_param/PlaybackVolUI_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:system/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Playback_AudioParam.xml:system/etc/audio_param/Playback_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Playback_ParamTreeView.xml:system/etc/audio_param/Playback_ParamTreeView.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Playback_ParamUnitDesc.xml:system/etc/audio_param/Playback_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/RecordDMNR_AudioParam.xml:system/etc/audio_param/RecordDMNR_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:system/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/RecordFIR_AudioParam.xml:system/etc/audio_param/RecordFIR_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/RecordFIR_ParamUnitDesc.xml:system/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/RecordUI_AudioParam.xml:system/etc/audio_param/RecordUI_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/RecordUI_ParamUnitDesc.xml:system/etc/audio_param/RecordUI_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/RecordVolUI_AudioParam.xml:system/etc/audio_param/RecordVolUI_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:system/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/RecordVol_AudioParam.xml:system/etc/audio_param/RecordVol_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/RecordVol_ParamUnitDesc.xml:system/etc/audio_param/RecordVol_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Record_AudioParam.xml:system/etc/audio_param/Record_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Record_ParamTreeView.xml:system/etc/audio_param/Record_ParamTreeView.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Record_ParamUnitDesc.xml:system/etc/audio_param/Record_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechDMNR_AudioParam.xml:system/etc/audio_param/SpeechDMNR_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:system/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechGeneral_AudioParam.xml:system/etc/audio_param/SpeechGeneral_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:system/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechMagiClarity_AudioParam.xml:system/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:system/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechUI_AudioParam.xml:system/etc/audio_param/SpeechUI_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechUI_ParamUnitDesc.xml:system/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechVolUI_AudioParam.xml:system/etc/audio_param/SpeechVolUI_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:system/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechVol_AudioParam.xml:system/etc/audio_param/SpeechVol_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/SpeechVol_ParamUnitDesc.xml:system/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Speech_AudioParam.xml:system/etc/audio_param/Speech_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Speech_ParamTreeView.xml:system/etc/audio_param/Speech_ParamTreeView.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Speech_ParamUnitDesc.xml:system/etc/audio_param/Speech_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIPDMNR_AudioParam.xml:system/etc/audio_param/VoIPDMNR_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:system/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIPGeneral_AudioParam.xml:system/etc/audio_param/VoIPGeneral_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:system/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIPUI_AudioParam.xml:system/etc/audio_param/VoIPUI_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIPUI_ParamUnitDesc.xml:system/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIPVolUI_AudioParam.xml:system/etc/audio_param/VoIPVolUI_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:system/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIPVol_AudioParam.xml:system/etc/audio_param/VoIPVol_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIPVol_ParamUnitDesc.xml:system/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIP_AudioParam.xml:system/etc/audio_param/VoIP_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIP_ParamTreeView.xml:system/etc/audio_param/VoIP_ParamTreeView.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VoIP_ParamUnitDesc.xml:system/etc/audio_param/VoIP_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VolumeGainMap_AudioParam.xml:system/etc/audio_param/VolumeGainMap_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:system/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Volume_AudioParam.xml:system/etc/audio_param/Volume_AudioParam.xml \
+ vendor/elephone/p9000/proprietary/etc/audio_param/Volume_ParamUnitDesc.xml:system/etc/audio_param/Volume_ParamUnitDesc.xml \
  vendor/elephone/p9000/proprietary/etc/MTKNfclicense.lic:system/etc/MTKNfclicense.lic \
  vendor/elephone/p9000/proprietary/etc/custom.conf:system/etc/custom.conf \
  vendor/elephone/p9000/proprietary/etc/firmware/catcher_filter_1_ulwctg_n.bin:system/etc/firmware/catcher_filter_1_ulwctg_n.bin \
