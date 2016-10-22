@@ -226,6 +226,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/hw/lights.mt6755.so:system/lib/hw/lights.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/hw/mmsdk.mt6755.so:system/lib/hw/mmsdk.mt6755.so \
+ vendor/elephone/p9000/proprietary/lib/hw/nfc_nci.mt6605.default.so:system/lib/hw/nfc_nci.mt6605.default.so \
  vendor/elephone/p9000/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/lib3a.so:system/lib/lib3a.so \
  vendor/elephone/p9000/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
@@ -384,10 +385,12 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
  vendor/elephone/p9000/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
  vendor/elephone/p9000/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
+ vendor/elephone/p9000/proprietary/lib/libmtknfc.so:system/lib/libmtknfc.so \
  vendor/elephone/p9000/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
  vendor/elephone/p9000/proprietary/lib/libn3d3a.so:system/lib/libn3d3a.so \
  vendor/elephone/p9000/proprietary/lib/libnativecheck-jni.so:system/lib/libnativecheck-jni.so \
  vendor/elephone/p9000/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
+ vendor/elephone/p9000/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
  vendor/elephone/p9000/proprietary/lib/libnvram.so:system/lib/libnvram.so \
  vendor/elephone/p9000/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
  vendor/elephone/p9000/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
@@ -427,6 +430,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/hw/lights.mt6755.so:system/lib64/hw/lights.mt6755.so \
  vendor/elephone/p9000/proprietary/lib64/hw/memtrack.mt6755.so:system/lib64/hw/memtrack.mt6755.so \
  vendor/elephone/p9000/proprietary/lib64/hw/mmsdk.mt6755.so:system/lib64/hw/mmsdk.mt6755.so \
+ vendor/elephone/p9000/proprietary/lib64/hw/nfc_nci.mt6605.default.so:system/lib64/hw/nfc_nci.mt6605.default.so \
  vendor/elephone/p9000/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
  vendor/elephone/p9000/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
  vendor/elephone/p9000/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
@@ -565,11 +569,13 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
  vendor/elephone/p9000/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
+ vendor/elephone/p9000/proprietary/lib64/libmtknfc.so:system/lib64/libmtknfc.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkplayer.so:system/lib64/libmtkplayer.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
  vendor/elephone/p9000/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
  vendor/elephone/p9000/proprietary/lib64/libnativecheck-jni.so:system/lib64/libnativecheck-jni.so \
  vendor/elephone/p9000/proprietary/lib64/libnetutils.so:system/lib64/libnetutils.so \
+ vendor/elephone/p9000/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so \
  vendor/elephone/p9000/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
  vendor/elephone/p9000/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
  vendor/elephone/p9000/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
