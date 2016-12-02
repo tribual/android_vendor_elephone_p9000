@@ -227,9 +227,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/radvd/radvd.conf:system/etc/radvd/radvd.conf \
- vendor/elephone/p9000/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
- vendor/elephone/p9000/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
- vendor/elephone/p9000/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
  vendor/elephone/p9000/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
  vendor/elephone/p9000/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
  vendor/elephone/p9000/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
