@@ -36,19 +36,19 @@
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
-      <Param name="ul_gain" value="80"/>
+      <Param name="ul_gain" value="34"/>
     </ParamUnit>
     <ParamUnit param_id="1">
-      <Param name="ul_gain" value="80"/>
+      <Param name="ul_gain" value="0"/>
     </ParamUnit>
     <ParamUnit param_id="2">
-      <Param name="ul_gain" value="80"/>
+      <Param name="ul_gain" value="32"/>
     </ParamUnit>
     <ParamUnit param_id="3">
-      <Param name="ul_gain" value="80"/>
+      <Param name="ul_gain" value="5"/>
     </ParamUnit>
     <ParamUnit param_id="4">
-      <Param name="ul_gain" value="80"/>
+      <Param name="ul_gain" value="15"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>
