@@ -431,6 +431,13 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
  vendor/elephone/p9000/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
  vendor/elephone/p9000/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
  vendor/elephone/p9000/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
  vendor/elephone/p9000/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
  vendor/elephone/p9000/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
