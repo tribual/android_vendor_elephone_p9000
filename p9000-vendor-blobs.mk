@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/bin/msensord:system/bin/msensord \
  vendor/elephone/p9000/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
  vendor/elephone/p9000/proprietary/bin/mtkrild:system/bin/mtkrild \
- vendor/elephone/p9000/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
  vendor/elephone/p9000/proprietary/bin/muxreport:system/bin/muxreport \
  vendor/elephone/p9000/proprietary/bin/netdiag:system/bin/netdiag \
  vendor/elephone/p9000/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
@@ -238,6 +237,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/hw/mmsdk.mt6755.so:system/lib/hw/mmsdk.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/hw/nfc_nci.mt6605.default.so:system/lib/hw/nfc_nci.mt6605.default.so \
+ vendor/elephone/p9000/proprietary/lib/hw/radio.fm.mt6735.so:system/lib/hw/radio.fm.mt6735.so \
  vendor/elephone/p9000/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/lib3a.so:system/lib/lib3a.so \
  vendor/elephone/p9000/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
@@ -413,7 +413,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
  vendor/elephone/p9000/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
  vendor/elephone/p9000/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
- vendor/elephone/p9000/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
  vendor/elephone/p9000/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
  vendor/elephone/p9000/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
  vendor/elephone/p9000/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
@@ -430,7 +429,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
  vendor/elephone/p9000/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
  vendor/elephone/p9000/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
- vendor/elephone/p9000/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
  vendor/elephone/p9000/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
  vendor/elephone/p9000/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
  vendor/elephone/p9000/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
@@ -598,7 +596,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
  vendor/elephone/p9000/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
  vendor/elephone/p9000/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
- vendor/elephone/p9000/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
  vendor/elephone/p9000/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
  vendor/elephone/p9000/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
  vendor/elephone/p9000/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
@@ -610,7 +607,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libwapi.so:system/lib64/libwapi.so \
  vendor/elephone/p9000/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
  vendor/elephone/p9000/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
- vendor/elephone/p9000/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
  vendor/elephone/p9000/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
  vendor/elephone/p9000/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
  vendor/elephone/p9000/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
