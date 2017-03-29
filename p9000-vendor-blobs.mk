@@ -239,6 +239,13 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/hw/nfc_nci.mt6605.default.so:system/lib/hw/nfc_nci.mt6605.default.so \
  vendor/elephone/p9000/proprietary/lib/hw/radio.fm.mt6735.so:system/lib/hw/radio.fm.mt6735.so \
  vendor/elephone/p9000/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+ vendor/elephone/p9000/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
  vendor/elephone/p9000/proprietary/lib/lib3a.so:system/lib/lib3a.so \
  vendor/elephone/p9000/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
  vendor/elephone/p9000/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
