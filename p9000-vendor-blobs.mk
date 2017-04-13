@@ -300,8 +300,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
  vendor/elephone/p9000/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
  vendor/elephone/p9000/proprietary/lib/libbluetooth_mtk_pure.so:system/lib/libbluetooth_mtk_pure.so \
- vendor/elephone/p9000/proprietary/lib/libbluetooth_relayer.so:system/lib/libbluetooth_relayer.so \
- vendor/elephone/p9000/proprietary/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
  vendor/elephone/p9000/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
  vendor/elephone/p9000/proprietary/lib/libbwc.so:system/lib/libbwc.so \
  vendor/elephone/p9000/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
@@ -488,10 +486,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
  vendor/elephone/p9000/proprietary/lib64/libblisrc.so:system/lib64/libblisrc.so \
  vendor/elephone/p9000/proprietary/lib64/libblisrc32.so:system/lib64/libblisrc32.so \
- vendor/elephone/p9000/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
  vendor/elephone/p9000/proprietary/lib64/libbluetooth_mtk_pure.so:system/lib64/libbluetooth_mtk_pure.so \
- vendor/elephone/p9000/proprietary/lib64/libbluetooth_relayer.so:system/lib64/libbluetooth_relayer.so \
- vendor/elephone/p9000/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
  vendor/elephone/p9000/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
  vendor/elephone/p9000/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
  vendor/elephone/p9000/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
