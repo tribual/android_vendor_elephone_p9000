@@ -166,8 +166,12 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:system/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
  vendor/elephone/p9000/proprietary/etc/audio_param/Volume_AudioParam.xml:system/etc/audio_param/Volume_AudioParam.xml \
  vendor/elephone/p9000/proprietary/etc/audio_param/Volume_ParamUnitDesc.xml:system/etc/audio_param/Volume_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/MTKNfclicense.lic:system/etc/MTKNfclicense.lic \
- vendor/elephone/p9000/proprietary/etc/custom.conf:system/etc/custom.conf \
+ vendor/elephone/p9000/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
+ vendor/elephone/p9000/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+ vendor/elephone/p9000/proprietary/etc/bluetooth/ble_stack.conf:system/etc/bluetooth/ble_stack.conf \
+ vendor/elephone/p9000/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
+ vendor/elephone/p9000/proprietary/etc/bluetooth/bt_stack.conf.debug:system/etc/bluetooth/bt_stack.conf.debug \
+ vendor/elephone/p9000/proprietary/etc/bluetooth/bt_stack.conf.sqc:system/etc/bluetooth/bt_stack.conf.sqc \
  vendor/elephone/p9000/proprietary/etc/firmware/catcher_filter_1_ulwctg_n.bin:system/etc/firmware/catcher_filter_1_ulwctg_n.bin \
  vendor/elephone/p9000/proprietary/etc/firmware/dsp_1_ulwctg_n.bin:system/etc/firmware/dsp_1_ulwctg_n.bin \
  vendor/elephone/p9000/proprietary/etc/firmware/modem_1_ulwctg_n.img:system/etc/firmware/modem_1_ulwctg_n.img \
@@ -192,7 +196,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
  vendor/elephone/p9000/proprietary/etc/firmware/WIFI_RAM_CODE_6755:system/etc/firmware/WIFI_RAM_CODE_6755 \
  vendor/elephone/p9000/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
- vendor/elephone/p9000/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/listen_config.txt:system/etc/nfc_conformance/DTA_Config/AT4/listen_config.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/listen_polling.txt:system/etc/nfc_conformance/DTA_Config/AT4/listen_polling.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/p2p_config.txt:system/etc/nfc_conformance/DTA_Config/AT4/p2p_config.txt \
@@ -225,6 +228,9 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_config_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt \
+ vendor/elephone/p9000/proprietary/etc/custom.conf:system/etc/custom.conf \
+ vendor/elephone/p9000/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
+ vendor/elephone/p9000/proprietary/etc/MTKNfclicense.lic:system/etc/MTKNfclicense.lic \
  vendor/elephone/p9000/proprietary/etc/radvd/radvd.conf:system/etc/radvd/radvd.conf \
  vendor/elephone/p9000/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
  vendor/elephone/p9000/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
@@ -300,8 +306,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
  vendor/elephone/p9000/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
  vendor/elephone/p9000/proprietary/lib/libbluetooth_mtk_pure.so:system/lib/libbluetooth_mtk_pure.so \
- vendor/elephone/p9000/proprietary/lib/libbluetooth_relayer.so:system/lib/libbluetooth_relayer.so \
- vendor/elephone/p9000/proprietary/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
  vendor/elephone/p9000/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
  vendor/elephone/p9000/proprietary/lib/libbwc.so:system/lib/libbwc.so \
  vendor/elephone/p9000/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
@@ -488,10 +492,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
  vendor/elephone/p9000/proprietary/lib64/libblisrc.so:system/lib64/libblisrc.so \
  vendor/elephone/p9000/proprietary/lib64/libblisrc32.so:system/lib64/libblisrc32.so \
- vendor/elephone/p9000/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
  vendor/elephone/p9000/proprietary/lib64/libbluetooth_mtk_pure.so:system/lib64/libbluetooth_mtk_pure.so \
- vendor/elephone/p9000/proprietary/lib64/libbluetooth_relayer.so:system/lib64/libbluetooth_relayer.so \
- vendor/elephone/p9000/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
  vendor/elephone/p9000/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
  vendor/elephone/p9000/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
  vendor/elephone/p9000/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
