@@ -2,10 +2,7 @@
 <ParamUnitDesc version="1.0">
 	<CategoryTypeList>
 		<CategoryType name="VolumeParam">
-			<Category name="Common_SPK_INT" alias="Common" feature_option="SPK_PATH_INT"/>
-			<Category name="Common_SPK_LO" alias="Common" feature_option="SPK_PATH_LO"/>
-			<Category name="Common_SPK_HP" alias="Common" feature_option="SPK_PATH_HP"/>
-			<Category name="Common_SPK_NO_ANA" alias="Common" feature_option="SPK_PATH_NO_ANA"/>
+			<Category name="Common"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

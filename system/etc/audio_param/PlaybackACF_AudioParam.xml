@@ -7,10 +7,10 @@
   <ParamUnitPool>
     <ParamUnit param_id="0">
       <Param name="ui_visible" value="1"/>
-      <Param name="bes_loudness_L_hpf_fc" value="0x12C"/>
+      <Param name="bes_loudness_L_hpf_fc" value="0xFF"/>
       <Param name="bes_loudness_L_hpf_order" value="0x2"/>
-      <Param name="bes_loudness_L_lpf_fc" value="0x2710"/>
-      <Param name="bes_loudness_L_lpf_order" value="0x1"/>
+      <Param name="bes_loudness_L_lpf_fc" value="0x2EE0"/>
+      <Param name="bes_loudness_L_lpf_order" value="0x2"/>
       <Param name="bes_loudness_L_bpf_fc" value="0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0"/>
       <Param name="bes_loudness_L_bpf_bw" value="0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0"/>
       <Param name="bes_loudness_L_bpf_gain" value="0,0,0,0,0,0,0,0"/>

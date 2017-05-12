@@ -57,7 +57,7 @@
       <Param name="UL FIR visibility" value="1"/>
       <Param name="UL DRC+DG visibility" value="1"/>
       <Param name="UL NREC visibility" value="1"/>
-      <Param name="UL cal. visibility" value="0"/>
+      <Param name="UL cal. visibility" value="1"/>
       <Param name="UL Digital Gain visibility" value="1"/>
       <Param name="UL Limiter TH visibility" value="1"/>
       <Param name="UL AEC visibility" value="1"/>

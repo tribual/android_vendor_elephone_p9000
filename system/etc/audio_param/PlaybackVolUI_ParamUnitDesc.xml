@@ -9,18 +9,10 @@
 		<CategoryType name="Profile" wording="Device">
 			<Category name="RCV"/>
 			<Category name="HS" alias="Headset,3/4-pole Headset"/>
+			<Category name="SPK" alias="Speaker"/>
+			<Category name="HSSPK" alias="Headset+Speaker"/>
 			<Category name="HS5POLE" alias="5-pole Headset"/>
 			<Category name="HS5POLE_ANC" alias="5-pole headset+ANC"/>
-
-			<Category name="SPK_INT" alias="SPK,Speaker" feature_option="SPK_PATH_INT"/>
-			<Category name="SPK_LO" alias="SPK,Speaker" feature_option="SPK_PATH_LO"/>
-			<Category name="SPK_HP" alias="SPK,Speaker" feature_option="SPK_PATH_HP"/>
-			<Category name="SPK_NO_ANA" alias="SPK,Speaker" feature_option="SPK_PATH_NO_ANA"/>
-
-			<Category name="HSSPK_INT" alias="HSSPK,Headset+Speaker" feature_option="SPK_PATH_INT"/>
-			<Category name="HSSPK_LO" alias="HSSPK,Headset+Speaker" feature_option="SPK_PATH_LO"/>
-			<Category name="HSSPK_HP" alias="HSSPK,Headset+Speaker" feature_option="SPK_PATH_HP"/>
-			<Category name="HSSPK_NO_ANA" alias="HSSPK,Headset+Speaker" feature_option="SPK_PATH_NO_ANA"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>
