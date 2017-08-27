@@ -106,7 +106,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/.tp/thermal.low.conf:system/etc/.tp/thermal.low.conf \
  vendor/elephone/p9000/proprietary/etc/.tp/thermal.mid.conf:system/etc/.tp/thermal.mid.conf \
  vendor/elephone/p9000/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
- vendor/elephone/p9000/proprietary/etc/ecc_list.xml:system/etc/ecc_list.xml \
  vendor/elephone/p9000/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
  vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackACF_AudioParam.xml:system/etc/audio_param/PlaybackACF_AudioParam.xml \
  vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:system/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
