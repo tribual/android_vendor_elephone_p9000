@@ -627,7 +627,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/hw/mmsdk.mt6755.so:system/lib64/hw/mmsdk.mt6755.so \
  vendor/elephone/p9000/proprietary/lib64/hw/nfc_nci.mt6605.default.so:system/lib64/hw/nfc_nci.mt6605.default.so \
  vendor/elephone/p9000/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
- vendor/elephone/p9000/proprietary/priv-app/EleButtonSettings/EleButtonSettings.apk:system/priv-app/EleButtonSettings/EleButtonSettings.apk \
  vendor/elephone/p9000/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
  vendor/elephone/p9000/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
  vendor/elephone/p9000/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
